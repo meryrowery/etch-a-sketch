@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    flex-direction: column-reverse;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* padding: 200px; */
+    max-width: 60%;
+    /* width: 960px; */
+
+}
+
+.box {
+    flex-basis: calc((100% - 32px) / 16);
+    flex-shrink: 0;
+    aspect-ratio: 1 / 1;
+    border: solid black 1px;
+}
+
+.dev-pink{
+    border-width: 2px;
+    border-color: pink;
+    border-style: solid;
+}
+
+.dev-green{
+    border-width: 2px;
+    border-color: green;
+    border-style: solid;
+}
+
+
